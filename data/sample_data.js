@@ -52,3 +52,4 @@ const developers = [
 export const points = [
   100, 20, 30, 44, 55, 70, 90, 10, 30, 45, 60, 80, 100, 100,
 ];
+
