@@ -2,7 +2,7 @@ export const students = [
   {
     name: "Jill",
     lastname: "Doe",
-    age: 23,
+    age: 25,
     course: "Marketing",
   },
   {
