@@ -16,4 +16,16 @@ const veinte = students.find(function (student) {
   }
 })
 
+// uso arrow functions para escribir menos codigo
+// consigo el mismo resultado cambio la sintaxis
+const result = students.find(student => student.name === "Ryan")
+
+// si busco algo con el metodo find que no existe
+// devuelve undefined
+
+console.log("filtre por nombre:")
 console.log(ryan)
+console.log("filtre por edad:")
+console.log(veinte)
+console.log("desde arrowfunction:")
+console.log(result)
