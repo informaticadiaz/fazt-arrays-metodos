@@ -50,4 +50,5 @@ const allSkills = developers.reduce(function (allSkills, student) {
 console.log(`esta suma viene del bucle for ${edadTotal}`)
 console.log(`esta suma viene del metodo reduce ${edadTotal2}`)
 console.log(`esta suma viene del metodo reduce con arrow function ${edadTotal3}`)
+console.log("este array viene de reduce:")
 console.log(allSkills)
